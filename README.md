@@ -1,4 +1,4 @@
-# Laya vs Jev
+# Signal
 
 Two AI decision models play Chrome's T-Rex game side by side: **Laya** runs locally on Apple Silicon through MLX, while **Jev** uses TypeSafe's hosted API. Watch their choices, response times, survival streaks, and crash replays on a shared obstacle course.
 
@@ -9,8 +9,8 @@ Two AI decision models play Chrome's T-Rex game side by side: **Laya** runs loca
 Requires an Apple Silicon Mac, Python 3.11+, [uv](https://docs.astral.sh/uv/), and a TypeSafe API key for Jev. Initial setup downloads model weights; Jev needs network access and uses your API account.
 
 ```bash
-git clone https://github.com/utk2103/laya-vs-jev.git
-cd laya-vs-jev
+git clone https://github.com/utk2103/Signal.git
+cd Signal
 uv sync --extra demo --extra trex --extra dev
 uv run --extra demo hf download aac6fef/laya-multilingual-mlx \
   --local-dir models/hub/laya-multilingual-mlx
@@ -164,13 +164,13 @@ Load these directly with `laya.load("aac6fef/laya-mlx")`, or use the original ch
 ## Development install
 
 ```bash
-gh repo clone utk2103/laya-vs-jev
-cd laya-vs-jev
+gh repo clone utk2103/Signal
+cd Signal
 uv sync --extra demo
 uv run --extra demo laya-snake
 ```
 
-Or install the latest GitHub revision with `pip install 'git+https://github.com/utk2103/laya-vs-jev.git'`. Model weights are downloaded separately and are excluded from Git.
+Or install the latest GitHub revision with `pip install 'git+https://github.com/utk2103/Signal.git'`. Model weights are downloaded separately and are excluded from Git.
 
 ## Python API
 

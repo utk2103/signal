@@ -239,7 +239,7 @@ class Painter:
     def draw(self, surface, frame, badge=None):
         surface.fill(PAGE)
         if self.video:
-            self.text(surface, "LAYA vs JEV  /  DINO ARENA", "title", INK, (60, 22))
+            self.text(surface, "Signal  /  DINO ARENA", "title", INK, (60, 22))
             self.text(
                 surface,
                 "Local speed. Network decisions. One shared course.",
@@ -607,7 +607,7 @@ class Window:
         self.arena = arena
         self.args = args
         pygame.init()
-        pygame.display.set_caption("Laya vs Jev — T-Rex")
+        pygame.display.set_caption("Signal — T-Rex")
         self.capture = Capture(arena, args)
         n = len(arena.pilots)
         desktop = pygame.display.get_desktop_sizes()[0][0]
@@ -631,7 +631,7 @@ class Window:
     def loading(self, lines):
         painter = self.painter
         self.screen.fill(PAGE)
-        painter.text(self.screen, "Laya vs Jev — T-Rex", "title", INK, (painter.margin, 28))
+        painter.text(self.screen, "Signal — T-Rex", "title", INK, (painter.margin, 28))
         for i, line in enumerate(lines[-8:] or ["Starting…"]):
             painter.text(self.screen, line, "body", TEXT, (painter.margin, 84 + 24 * i))
         pygame.display.flip()

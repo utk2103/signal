@@ -40,11 +40,11 @@ laya-trex = "laya_mlx.trex.cli:main"
 laya-social = "social.cli:main"
 
 [project.urls]
-Repository = "https://github.com/utk2103/laya-vs-jev"
+Repository = "https://github.com/utk2103/Signal"
 Upstream = "https://github.com/NandhaKishorM/laya"
-Documentation = "https://github.com/utk2103/laya-vs-jev#readme"
-Issues = "https://github.com/utk2103/laya-vs-jev/issues"
-Benchmarks = "https://github.com/utk2103/laya-vs-jev/blob/main/BENCHMARKS.md"
+Documentation = "https://github.com/utk2103/Signal#readme"
+Issues = "https://github.com/utk2103/Signal/issues"
+Benchmarks = "https://github.com/utk2103/Signal/blob/main/BENCHMARKS.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["laya_mlx", "social", "social.live"]

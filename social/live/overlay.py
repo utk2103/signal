@@ -213,7 +213,7 @@ PANEL_JS = r"""
   // -- title row -----------------------------------------------------------------------
   const head = mk('div', 'row');
   const title = mk('span', 'title');
-  txt(title, 'LIVE FEED · LAYA vs JEV');
+  txt(title, 'LIVE FEED · Signal');
   const who = mk('span', 'who grow');
   const whoT = txt(who, undefined);
   const btnSave = mk('button');
