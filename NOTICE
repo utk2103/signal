@@ -1,0 +1,30 @@
+laya-mlx
+Copyright 2026 laya-mlx contributors
+
+This product includes software derived from Laya:
+https://github.com/NandhaKishorM/laya
+Copyright Convai Innovations and Laya contributors. Licensed under Apache-2.0.
+Upstream source revision: 6a5819129eb220570792e417e49723d697efd76f
+
+The token sequence construction, question rendering, confidence calculation,
+presets, email utilities and language router are adapted from Laya.
+The neural network is reimplemented using Apple's MLX, following Laya's
+DecisionModel and the ModernBERT architecture in Hugging Face Transformers.
+Model weights are downloaded separately from Convai Innovations on Hugging Face;
+they are not included in this repository.
+
+The T-Rex demo (laya_mlx/trex) is a Python port of the offline dinosaur game in Chromium
+(components/neterror/resources/dino_game, commit 0fd1c14b0bc9c294cf49a74cdafe9be1a7e7330a).
+Its sprite sheets and sounds are copied from Chromium. Copyright The Chromium Authors,
+BSD 3-Clause; see laya_mlx/trex/assets/LICENSE.chromium.
+
+The live feed probe (social/live) adapts four browser mechanisms from jev-browser:
+https://github.com/Ying-Kai-Liao/jev-browser
+Copyright 2026 Ying-Kai Liao. Licensed under MIT.
+The persistent-context launch, settle-by-mutation-timestamp detection with its
+self-mutation and stale-request guards, and the overlay injection recipe are adapted
+from its session driver.
+
+This repository builds on the Laya-MLX runtime by mizorewww and contributors:
+https://github.com/mizorewww/laya-mlx
+Licensed under Apache-2.0; original notices are retained above.

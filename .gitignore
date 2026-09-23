@@ -1,0 +1,30 @@
+.venv/
+.upstream/
+.cache/
+models/
+*.safetensors
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+artifacts/
+
+# Local editor and assistant state
+.idea/
+.vscode/
+.claude/
+.codex/
+CLAUDE.md
+claude.md
+*.pyc
+*.pyo
+
+# docs
+docs/

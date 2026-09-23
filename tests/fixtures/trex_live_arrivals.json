@@ -1,0 +1,221 @@
+[
+  {
+    "player": "Jev",
+    "frame": 1729,
+    "action": "jump",
+    "snapshot": {
+      "trex": [
+        93,
+        0.0,
+        false,
+        false,
+        false,
+        false,
+        "run"
+      ],
+      "trex_x": 23,
+      "speed": 7.7300000000005875,
+      "obstacles": [
+        {
+          "id": 97,
+          "label": "large cactus",
+          "bird": false,
+          "x": 240,
+          "y": 90,
+          "width": 25,
+          "height": 50,
+          "offset": 0.0,
+          "boxes": [
+            [
+              0,
+              12,
+              7,
+              38
+            ],
+            [
+              8,
+              0,
+              7,
+              49
+            ],
+            [
+              13,
+              10,
+              10,
+              38
+            ]
+          ]
+        }
+      ],
+      "held": "run",
+      "playing": true,
+      "pending": null
+    }
+  },
+  {
+    "player": "Laya",
+    "frame": 4535,
+    "action": "duck",
+    "snapshot": {
+      "trex": [
+        72,
+        -9.493400000000031,
+        true,
+        false,
+        false,
+        false,
+        "jump"
+      ],
+      "trex_x": 23,
+      "speed": 6.936000000000321,
+      "obstacles": [
+        {
+          "id": 262,
+          "label": "small cactus",
+          "bird": false,
+          "x": 197,
+          "y": 105,
+          "width": 17,
+          "height": 35,
+          "offset": 0.0,
+          "boxes": [
+            [
+              0,
+              7,
+              5,
+              27
+            ],
+            [
+              4,
+              0,
+              6,
+              34
+            ],
+            [
+              10,
+              4,
+              7,
+              14
+            ]
+          ]
+        },
+        {
+          "id": 265,
+          "label": "small cactus",
+          "bird": false,
+          "x": 503,
+          "y": 105,
+          "width": 17,
+          "height": 35,
+          "offset": 0.0,
+          "boxes": [
+            [
+              0,
+              7,
+              5,
+              27
+            ],
+            [
+              4,
+              0,
+              6,
+              34
+            ],
+            [
+              10,
+              4,
+              7,
+              14
+            ]
+          ]
+        }
+      ],
+      "held": "run",
+      "playing": true,
+      "pending": null
+    }
+  },
+  {
+    "player": "Laya-passed-obstacle",
+    "frame": 1017,
+    "action": "jump",
+    "snapshot": {
+      "trex": [
+        93,
+        0.0,
+        false,
+        false,
+        false,
+        false,
+        "run"
+      ],
+      "trex_x": 23,
+      "speed": 7.01800000000034,
+      "obstacles": [
+        {
+          "id": 57,
+          "label": "large cactus",
+          "bird": false,
+          "x": -23,
+          "y": 90,
+          "width": 25,
+          "height": 50,
+          "offset": 0.0,
+          "boxes": [
+            [
+              0,
+              12,
+              7,
+              38
+            ],
+            [
+              8,
+              0,
+              7,
+              49
+            ],
+            [
+              13,
+              10,
+              10,
+              38
+            ]
+          ]
+        },
+        {
+          "id": 60,
+          "label": "2 small cacti",
+          "bird": false,
+          "x": 299,
+          "y": 105,
+          "width": 34,
+          "height": 35,
+          "offset": 0.0,
+          "boxes": [
+            [
+              0,
+              7,
+              5,
+              27
+            ],
+            [
+              4,
+              0,
+              22,
+              34
+            ],
+            [
+              27,
+              4,
+              7,
+              14
+            ]
+          ]
+        }
+      ],
+      "held": "run",
+      "playing": true,
+      "pending": null
+    }
+  }
+]
